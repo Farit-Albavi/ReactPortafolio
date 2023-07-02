@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <header className='flex justify-center dark:bg-transparent bg-gray-300 text-gray-700 dark:text-white border border-blue-800'>
+      <header className='flex justify-center dark:bg-transparent bg-gray-300 text-gray-700 dark:text-white'>
         <Header></Header>
       </header>
       {/* quitar el h-screen */}
