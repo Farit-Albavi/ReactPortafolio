@@ -1,5 +1,5 @@
 import React from 'react'
-
+import html from '../img/html1.svg'
 function Skills() {
     return (
         <div className='container w-full'>
@@ -11,9 +11,9 @@ function Skills() {
                 <div className='max-w-sm border hover:shadow-2xl hover:shadow-gray-500 hover:bg-red-50 text-gray-700 hover:scale-110 rounded w-36'>
                     <div className="px-6 py-4 flex flex-col items-center">
                         <div className='w-16 h-16 rounded-full bg-red-300 dark:bg-white flex items-center justify-center'>
-                            <p className='text-base'> Logo </p>
+                            <img src={html} alt="logo" />
                         </div>
-                        <div class="font-bold text-xl mt-2">HTML6</div>
+                        <div class="font-semibold text-xl mt-2 dark:text-white">HTML</div>
                     </div>
                 </div>
                 <div className='max-w-sm border hover:shadow-2xl hover:shadow-gray-500 hover:bg-red-50 text-gray-700 hover:scale-110 rounded w-36'>
@@ -21,15 +21,7 @@ function Skills() {
                         <div className='w-16 h-16 rounded-full bg-red-300 dark:bg-white  flex items-center justify-center'>
                             <p className='text-base'> Logo </p>
                         </div>
-                        <div className="font-bold text-xl mt-2">HTML6</div>
-                    </div>
-                </div>
-                <div className='max-w-sm border dark:border-blue-800 hover:shadow-2xl hover:shadow-gray-500 hover:bg-red-50 text-gray-700 hover:scale-110 rounded w-36'>
-                    <div class="px-6 py-4 flex flex-col items-center">
-                        <div className='w-16 h-16 rounded-full bg-red-300 dark:bg-white  flex items-center justify-center'>
-                            <p className='text-base'> Logo </p>
-                        </div>
-                        <div className="font-bold text-xl mt-2">HTML6</div>
+                        <div className="font-semibold text-xl mt-2 dark:text-white">CSS</div>
                     </div>
                 </div>
                 <div className='max-w-sm border hover:shadow-2xl hover:shadow-gray-500 hover:bg-red-50 text-gray-700 hover:scale-110 rounded w-36'>
@@ -37,7 +29,7 @@ function Skills() {
                         <div className='w-16 h-16 rounded-full bg-red-300 dark:bg-white  flex items-center justify-center'>
                             <p className='text-base'> Logo </p>
                         </div>
-                        <div class="font-bold text-xl mt-2">HTML6</div>
+                        <div className="font-semibold text-xl mt-2 dark:text-white">Javascript</div>
                     </div>
                 </div>
                 <div className='max-w-sm border hover:shadow-2xl hover:shadow-gray-500 hover:bg-red-50 text-gray-700 hover:scale-110 rounded w-36'>
@@ -45,7 +37,7 @@ function Skills() {
                         <div className='w-16 h-16 rounded-full bg-red-300 dark:bg-white  flex items-center justify-center'>
                             <p className='text-base'> Logo </p>
                         </div>
-                        <div class="font-bold text-xl mt-2">HTML6</div>
+                        <div class="font-semibold text-xl mt-2 dark:text-white">Typescript</div>
                     </div>
                 </div>
                 <div className='max-w-sm border hover:shadow-2xl hover:shadow-gray-500 hover:bg-red-50 text-gray-700 hover:scale-110 rounded w-36'>
@@ -53,7 +45,15 @@ function Skills() {
                         <div className='w-16 h-16 rounded-full bg-red-300 dark:bg-white  flex items-center justify-center'>
                             <p className='text-base'> Logo </p>
                         </div>
-                        <div class="font-bold text-xl mt-2">HTML6</div>
+                        <div class="font-semibold text-xl mt-2 dark:text-white">ReactJS</div>
+                    </div>
+                </div>
+                <div className='max-w-sm border hover:shadow-2xl hover:shadow-gray-500 hover:bg-red-50 text-gray-700 hover:scale-110 rounded w-36'>
+                    <div class="px-6 py-4 flex flex-col items-center">
+                        <div className='w-16 h-16 rounded-full bg-red-300 dark:bg-white  flex items-center justify-center'>
+                            <p className='text-base'>logo</p>
+                        </div>
+                        <div class="font-semibold text-xl mt-2 dark:text-white">Node.js</div>
                     </div>
                 </div>
 
