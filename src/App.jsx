@@ -13,10 +13,12 @@ function App() {
       <header className='flex justify-center dark:bg-transparent bg-gray-300 text-gray-700 dark:text-white'>
         <Header1></Header1>
       </header>
+
       {/* quitar el h-screen */}
-      <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white h-screen'>
+      <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Presentacion></Presentacion>
       </section>
+
       <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Skills></Skills>
       </section>

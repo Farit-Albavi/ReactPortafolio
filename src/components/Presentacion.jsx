@@ -3,7 +3,7 @@ import 'animate.css';
 
 export default function Presentacion() {
     return (
-        <div className='container flex items-center sm:block sm:mt-44 animate__animated animate__bounceInLeft w-full'>
+        <div className='container flex flex-col items-center sm:block sm:mt-44 animate__animated animate__bounceInLeft w-full'>
             <section className='w-full p-4 sm:p-0'>
 
                 <h1 className="font-bold text-6xl">
@@ -21,8 +21,7 @@ export default function Presentacion() {
                     </p>
                 </div>
 
-
-                <aside className='flex justify-center sm:block mt-8'>
+                <aside className='flex justify-center sm:block mt-8 '>
                     <button className=" dark:bg-gray-300 bg-red-100 hover:bg-red-200 dark:hover:bg-blue-50 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                         <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
                         <span>Download CV</span>
@@ -30,6 +29,20 @@ export default function Presentacion() {
                 </aside>
 
             </section>
+
+            <aside className='flex flex-col items-end  text-end p-4 sm:p-0 animate__bounceInRight animate__animated   '>
+                <h1 className='font-bold text-6xl'>Soy Farit</h1>
+
+                <div className='sm:max-w-xl mt-8'>
+                    <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Soy un apasionado desarrollador trainee de software con conocimiento en diversas tecnologías.
+                        Mi objetivo principal es crear soluciones eficientes y de alta calidad que impulsen el éxito de los proyectos en los que trabajo.
+                    </p>
+                </div>
+
+            </aside>
+
+
         </div>
     )
 }

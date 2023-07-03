@@ -1,7 +1,9 @@
 import React from 'react'
 import logo from '../img/icons8-github.svg'
+import bGithub from '../img/githubBlackTheme.svg'
 
 function Footer() {
+    let x = 2
     return (
 
         <section className="bg-white shadow dark:bg-transparent w-full">
@@ -10,7 +12,7 @@ function Footer() {
                     <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 mb-2">
                         <li>
                             <a href="">
-                                <img src={logo} alt="img" className='' />
+                                <object data={logo} type="image/svg+xml"></object>
                             </a>
                         </li>
                         <li>
@@ -20,7 +22,7 @@ function Footer() {
                             <img src={logo} alt="img" className='' />
                         </li>
                         <li>
-                            <img src={logo} alt="img" className='' />
+                            {x === 0 ? <img src={logo} alt="img" className='' /> : <img src={bGithub} alt="img" className='' />}
                         </li>
                     </ul>
                 </div>
