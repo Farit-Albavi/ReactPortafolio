@@ -23,7 +23,7 @@ function Header1() {
             </div>
 
 
-            <div className={`w-full sm:flex flex justify-center sm:items-center sm:w-auto ${isOpen ? 'block' : 'hidden'}`}>
+            <div className={`w-full sm:flex flex justify-center sm:items-center sm:w-auto pt-10 sm:pt-0 ${isOpen ? 'block' : 'hidden'}`}>
                 <ul className="flex flex-col gap-5 sm:gap-0 sm:flex-row">
                     <li className="mb-2 sm:mb-0 sm:mr-4 hover:underline hover:underline-offset-8">
                         <a href="/" className="block">Home</a>
