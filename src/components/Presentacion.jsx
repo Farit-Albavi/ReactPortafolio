@@ -3,7 +3,7 @@ import 'animate.css';
 
 export default function Presentacion() {
     return (
-        <div className='container mt-44 animate__animated animate__bounceInLeft w-full'>
+        <div className='container flex items-center sm:block sm:mt-44 animate__animated animate__bounceInLeft w-full'>
             <section className='w-full p-4 sm:p-0'>
 
                 <h1 className="font-bold text-6xl">
