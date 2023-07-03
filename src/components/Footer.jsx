@@ -4,13 +4,12 @@ import logo from '../img/icons8-github.svg'
 function Footer() {
     return (
 
-        <section className="bg-white rounded-lg shadow dark:bg-transparent w-full">
+        <section className="bg-white shadow dark:bg-transparent w-full">
             <div className="w-full max-w-screen-xl mx-auto sm:py-4">
-                <div className="sm:flex sm:items-center sm:justify-between lg:justify-center m-4">
+                <div className="sm:flex sm:items-center sm:justify-between lg:justify-center sm:m-4">
                     <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-4">
                         <li>
                             <a href="">
-
                                 <img src={logo} alt="img" className='' />
                             </a>
                         </li>
