@@ -1,5 +1,5 @@
 import Header from './components/Header'
-import Header1 from './components/Header1.jsx'
+import Header1 from './components/Header.jsx'
 import Presentacion from './components/Presentacion'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
