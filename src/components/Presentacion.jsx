@@ -31,7 +31,7 @@ export default function Presentacion() {
             </section>
 
             <aside className='flex flex-col items-end  text-end p-4 sm:p-0 animate__bounceInRight animate__animated   '>
-                <h1 className='font-bold text-6xl'>Me llamo Farit</h1>
+                <h1 className='font-bold text-5xl md:text-6xl'>Me llamo Farit</h1>
 
                 <div className='sm:max-w-xl mt-8'>
                     <p className="font-normal text-gray-700 dark:text-gray-400">
