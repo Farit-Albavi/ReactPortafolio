@@ -22,8 +22,8 @@ function Footer() {
 
         <section className="bg-white shadow dark:bg-transparent w-full">
             <div className="w-full max-w-screen-xl mx-auto sm:py-4">
-                <div className="sm:flex sm:items-center sm:justify-between lg:justify-center sm:m-4">
-                    <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 mb-2">
+                <div className="lg:flex sm:items-center sm:justify-between lg:justify-center sm:m-4">
+                    <ul className="flex items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 mb-2">
                         <li>
                             {theme === false ?
                                 <a href="https://github.com/Farit-Albavi" target="_blank">
