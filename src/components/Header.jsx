@@ -9,7 +9,7 @@ function Header() {
     };
 
     return (
-        <nav className="py-4 container flex flex-col sm:flex-row-reverse absolute top-0 z-10">
+        <nav className="py-4 container flex flex-col sm:flex-row-reverse xl:absolute top-0 z-10">
 
             <div className="container mx-auto flex items-center justify-between">
                 <button

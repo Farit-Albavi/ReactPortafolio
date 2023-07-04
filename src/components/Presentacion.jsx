@@ -3,14 +3,14 @@ import 'animate.css';
 
 export default function Presentacion() {
     return (
-        <div className='container flex flex-col items-center sm:block sm:mt-14 xl:mt-44 animate__animated animate__bounceInLeft w-full h-screen'>
+        <div className='container flex flex-col items-center sm:block mt-14 xl:mt-44 animate__animated animate__bounceInLeft w-full h-screen'>
             <section className='w-full p-4 sm:p-0'>
 
-                <h1 className="font-bold text-6xl">
+                <h1 className="font-bold text-5xl md:text-6xl">
                     Hello, I'm
                 </h1>
 
-                <h1 className="font-bold text-6xl">
+                <h1 className="font-bold text-5xl md:text-6xl">
                     a Front end Devloper
                 </h1>
 

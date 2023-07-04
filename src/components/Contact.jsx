@@ -10,7 +10,7 @@ function Contact() {
                 referrerPolicy="no-referrer-when-downgrade">
             </iframe>
 
-            <form className='container p-5 sm:max-w-xl flex flex-col sm:border dark:border-blue-950 rounded m-auto sm:py-40'>
+            <form className='container p-5 sm:max-w-xl flex flex-col lg:border dark:border-blue-950 rounded m-auto lg:py-40'>
 
                 <div className='mb-5 m-auto'>
                     <h1 className='text-center font-bold'>Contact Me</h1>
