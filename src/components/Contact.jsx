@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section className='container mt-20 flex flex-col sm:flex-row'>
+        <section className='container xl:mt-20 flex flex-col sm:flex-row'>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d757.0069129128622!2d-57.565792712318256!3d-25.506646393499484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDMwJzI1LjIiUyA1N8KwMzMnNTguNCJX!5e0!3m2!1ses-419!2spy!4v1688369812009!5m2!1ses-419!2spy"
                 className='w-full h-96 sm:h-full sm:block'

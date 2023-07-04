@@ -2,7 +2,7 @@ import React from 'react'
 import html from '../img/html1.svg'
 function Skills() {
     return (
-        <div className='container w-full h-full'>
+        <div className='container w-full h-full my-5 xl:my-0'>
             <div className='text-center'>
                 <h1 className='font-bold text-3xl mb-1'>Skills Set</h1>
                 <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i can do</h6>
