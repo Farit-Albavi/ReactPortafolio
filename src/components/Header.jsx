@@ -35,10 +35,10 @@ function Header() {
                         <a href="/works" className="block ">Works</a>
                     </li>
                     <li className="mb-2 sm:mb-0 sm:mr-4 hover:underline hover:underline-offset-8">
-                        <a href="/skills" className="block ">Skills</a>
+                        <a href="#skills" className="block ">Skills</a>
                     </li>
                     <li className="mb-2 sm:mb-0 sm:mr-4 hover:underline hover:underline-offset-8">
-                        <a href="/contact" className="block ">Contact</a>
+                        <a href="#contact"  className="block ">Contact</a>
                     </li>
                     <li className="mb-2 sm:mb-0 hover:underline hover:underline-offset-8">
                         <a href="/blog" className="block ">Blog</a>
