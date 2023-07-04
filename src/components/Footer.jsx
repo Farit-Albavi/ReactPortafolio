@@ -1,9 +1,23 @@
-import React from 'react'
-import logo from '../img/icons8-github.svg'
-import bGithub from '../img/githubBlackTheme.svg'
+import React, { useContext, useEffect } from "react";
+import lGithub from '../img/icons8-github.svg'
+import dGithub from '../img/githubBlackTheme.svg'
+import linkedin from '../img/icons8-linkedin.svg'
+import linkedinL from '../img/icons8-linkedinLight.svg'
+import facebook from '../img/icons8-facebook.svg'
+import facebookL from '../img/icons8-facebookLight.svg'
+import instagram from '../img/icons8-instagram.svg'
+import instagramL from '../img/icons8-instagramLight.svg'
+import ThemeContext from '../context/ThemeContext'
+
 
 function Footer() {
-    let x = 2
+
+
+    const { theme } = useContext(ThemeContext);
+
+    useEffect(() => {
+    }, [theme])
+
     return (
 
         <section className="bg-white shadow dark:bg-transparent w-full">
@@ -11,18 +25,40 @@ function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between lg:justify-center sm:m-4">
                     <ul className="flex flex-wrap items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 mb-2">
                         <li>
-                            <a href="">
-                                <object data={logo} type="image/svg+xml"></object>
-                            </a>
+                            {theme === false ?
+                                <a href="https://github.com/Farit-Albavi" target="_blank">
+                                    <img src={lGithub} alt="facebook icon" /></a>
+                                :
+                                <a href="https://github.com/Farit-Albavi" target="_blank">
+                                    <img src={dGithub} alt="facebook icon" /></a>
+                            }
                         </li>
                         <li>
-                            <img src={logo} alt="img" className='' />
+                            {theme === false ?
+                                <a href="https://www.linkedin.com/in/farit-albavi/" target="_blank">
+                                    <img src={linkedinL} alt="facebook icon" /></a>
+                                :
+                                <a href="https://www.linkedin.com/in/farit-albavi/" target="_blank">
+                                    <img src={linkedin} alt="facebook icon" /></a>
+                            }
                         </li>
                         <li>
-                            <img src={logo} alt="img" className='' />
+                            {theme === false ?
+                                <a href="https://www.instagram.com/fariiit/" target="_blank">
+                                    <img src={instagramL} alt="facebook icon" /></a>
+                                :
+                                <a href="https://www.instagram.com/fariiit/" target="_blank">
+                                    <img src={instagram} alt="facebook icon" /></a>
+                            }
                         </li>
                         <li>
-                            {x === 0 ? <img src={logo} alt="img" className='' /> : <img src={bGithub} alt="img" className='' />}
+                            {theme === false ?
+                                <a href="https://www.facebook.com/farit.albavi/" target="_blank">
+                                    <img src={facebookL} alt="facebook icon" /></a>
+                                :
+                                <a href="https://www.facebook.com/farit.albavi/" target="_blank">
+                                    <img src={facebook} alt="facebook icon" /></a>
+                            }
                         </li>
                     </ul>
                 </div>

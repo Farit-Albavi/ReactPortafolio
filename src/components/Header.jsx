@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Switcher from './Switcher'
 
-function Header1() {
+function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleNavbar = () => {
@@ -9,7 +9,7 @@ function Header1() {
     };
 
     return (
-        <nav className="py-4 container flex flex-col sm:flex-row-reverse">
+        <nav className="py-4 container flex flex-col sm:flex-row-reverse absolute top-0 z-10">
 
             <div className="container mx-auto flex items-center justify-between">
                 <button
@@ -50,4 +50,4 @@ function Header1() {
     );
 }
 
-export default Header1;
+export default Header;

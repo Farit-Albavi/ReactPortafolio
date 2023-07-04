@@ -3,7 +3,7 @@ import 'animate.css';
 
 export default function Presentacion() {
     return (
-        <div className='container flex flex-col items-center sm:block sm:mt-44 animate__animated animate__bounceInLeft w-full'>
+        <div className='container flex flex-col items-center sm:block sm:mt-14 xl:mt-44 animate__animated animate__bounceInLeft w-full h-screen'>
             <section className='w-full p-4 sm:p-0'>
 
                 <h1 className="font-bold text-6xl">
@@ -31,7 +31,7 @@ export default function Presentacion() {
             </section>
 
             <aside className='flex flex-col items-end  text-end p-4 sm:p-0 animate__bounceInRight animate__animated   '>
-                <h1 className='font-bold text-6xl'>Soy Farit</h1>
+                <h1 className='font-bold text-6xl'>Me llamo Farit</h1>
 
                 <div className='sm:max-w-xl mt-8'>
                     <p className="font-normal text-gray-700 dark:text-gray-400">
