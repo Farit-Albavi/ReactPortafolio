@@ -30,13 +30,12 @@ function Services() {
                 </ServiceCard>
 
                 <ServiceCard
-                    title={'Web Development'}
+                    title={'Backend'}
                     description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, consectetur distinctio molestiae veniam dolor iure exercitationem ex aperiam, ipsa porro inventore quia similique laboriosam id cumque corrupti? Modi, iusto.'}
                 >
                     <TerminalSVGR />
                 </ServiceCard>
 
-                <Quote />
             </section>
 
 

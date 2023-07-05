@@ -1,10 +1,13 @@
 import React from 'react'
 
 function Contact() {
+
+    const src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.9185124462!2d2.347035!3d48.85885484999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyw61zLCBGcmFuY2lh!5e0!3m2!1ses-419!2spy!4v1688597809067!5m2!1ses-419!2spy'
+
     return (
         <section id='contact' className='container xl:mt-20 flex flex-col sm:flex-row'>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d757.0069129128622!2d-57.565792712318256!3d-25.506646393499484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDMwJzI1LjIiUyA1N8KwMzMnNTguNCJX!5e0!3m2!1ses-419!2spy!4v1688369812009!5m2!1ses-419!2spy"
+            <iframe src={src}
                 className='w-full h-96 sm:h-full sm:block'
                 allowFullScreen="" loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade">

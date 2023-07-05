@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import Services from './components/Services'
 import Carousel from './components/Carousel'
+import Quote from './components/Quote'
 
 
 function App() {
@@ -27,14 +28,20 @@ function App() {
       </section>
 
       <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
+        <Quote />
+      </section>
+
+      <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Skills></Skills>
       </section>
 
       <Carousel></Carousel>
 
+
       <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Contact></Contact>
       </section>
+
 
       <footer className='dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Footer></Footer>
