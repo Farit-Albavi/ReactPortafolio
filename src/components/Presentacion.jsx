@@ -7,6 +7,8 @@ export default function Presentacion() {
             {/* 
                 agregue clases para que en movile se centre el texto de la presentacion, en caso de que no me guste deberia quitar las siguientes clases:
                     text-center sm:text-left
+                    text-center sm:text-end
+                    sm:items-end
                 debo quitar de los h1 y los parrafos.
         
             */}
@@ -21,7 +23,7 @@ export default function Presentacion() {
                 </h1>
 
                 <div className='sm:max-w-xl mt-8 '>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center sm:text-left">
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left">
                         Bienvenidos/as a mi portafolio, soy desarollador trainee, he trabajado con diversas tecnologías en el ámbito del desarrollo web,
                         tanto en el frontend como del backend. Estoy abierto a aprender, a superar desafíos y nuevos retos.
                     </p>
@@ -40,7 +42,7 @@ export default function Presentacion() {
                 <h1 className='font-bold text-5xl md:text-6xl text-center sm:text-end '>Me llamo Farit</h1>
 
                 <div className='sm:max-w-xl mt-8'>
-                    <p className="font-normal text-gray-700 dark:text-gray-400 text-center sm:text-end ">
+                    <p className="font-normal text-gray-700 dark:text-gray-400 text-start sm:text-end">
                         Soy un apasionado desarrollador trainee de software con conocimiento en diversas tecnologías.
                         Mi objetivo principal es crear soluciones eficientes y de alta calidad que impulsen el éxito de los proyectos en los que trabajo.
                     </p>
