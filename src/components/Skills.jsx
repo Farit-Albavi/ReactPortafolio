@@ -1,16 +1,17 @@
 import React from 'react'
 import html from '../img/html1.svg'
 import SkillCard from './SkillCard'
-import HtmlSVGR from '../svgr/HtmlSVGR'
-import CssSVGR from '../svgr/CssSVGR'
-import JsSVGR from '../svgr/JsSVGR'
-import ReactSVG from '../svgr/ReactSVG'
-import JavaSVG from '../svgr/JavaSVG'
+import HtmlSVGR from '../svgr/svgSkills/HtmlSVGR'
+import CssSVGR from '../svgr/svgSkills/CssSVGR'
+import JsSVGR from '../svgr/svgSkills/JsSVGR'
+import ReactSVG from '../svgr/svgSkills/ReactSVG'
+import JavaSVG from '../svgr/svgSkills/JavaSVG'
+import DbSVGR from '../svgr/svgSkills/DbSVGR'
 
 
 function Skills() {
     return (
-        <div id='skills' className='container w-full h-full my-5 xl:my-0'>
+        <div id='skills' className='container w-full h-full my-5 xl:my-10'>
             <div className='text-center'>
                 <h1 className='font-bold text-3xl mb-1'>Skills Set</h1>
                 <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i can do</h6>
@@ -37,10 +38,7 @@ function Skills() {
                 </SkillCard>
 
                 <SkillCard title='SQL'>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" width={40} height={40} stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2zm0 3h18M3 14h18M3 9h18" />
-                    </svg>
-
+                    <DbSVGR />
                 </SkillCard>
             </section>
         </div>
