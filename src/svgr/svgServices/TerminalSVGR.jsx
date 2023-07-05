@@ -4,7 +4,7 @@ const TerminalSVGR = (props) => (
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         aria-hidden="true"
-        className="w-6 h-6 text-gray-800 dark:text-white"
+        className="w-6 h-6 text-gray-800 dark:text-black"
         viewBox="0 0 20 18"
         {...props}
     >

@@ -4,7 +4,7 @@ const LearnSVGR = (props) => (
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         aria-hidden="true"
-        className="w-6 h-6 text-white dark:text-white"
+        className="w-6 h-6 text-black dark:text-black"
         viewBox="0 0 20 18"
         {...props}
     >
