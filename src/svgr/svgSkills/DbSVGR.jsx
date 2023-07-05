@@ -4,7 +4,7 @@ const dbSVGR = (props) => (
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         aria-hidden="true"
-        className="w-9 h-9 text-gray-800 dark:text-white"
+        className="w-9 h-9 text-gray-800 dark:text-orange-800"
         viewBox="0 0 18 20"
         {...props}
     >
