@@ -4,6 +4,7 @@ import Skills from './components/Skills'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import Services from './components/Services'
+import Carousel from './components/Carousel'
 
 
 function App() {
@@ -15,8 +16,6 @@ function App() {
       <header className='flex justify-center dark:bg-transparent bg-gray-300 text-gray-700 dark:text-white'>
         <Header></Header>
       </header>
-
-
 
       {/* quitar el h-screen */}
       <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
@@ -31,6 +30,8 @@ function App() {
         <Skills></Skills>
       </section>
 
+      <Carousel></Carousel>
+
       <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Contact></Contact>
       </section>
@@ -38,7 +39,6 @@ function App() {
       <footer className='dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Footer></Footer>
       </footer>
-
     </>
   )
 }

@@ -1,6 +1,6 @@
 import * as React from "react"
 const ReactSVG = (props) => (
-    <svg class="w-12 h-12 mx-auto
+    <svg className="w-12 h-12 mx-auto
      text-blue-500"
         fill="currentColor"
         xmlns="http://www.w3.org/2000/svg"
