@@ -8,7 +8,7 @@ export default function Presentacion() {
                 agregue clases para que en movile se centre el texto de la presentacion, en caso de que no me guste deberia quitar las siguientes clases:
                     text-center sm:text-left
                     text-center sm:text-end
-                    sm:items-end
+                    sm:items-end    
                 debo quitar de los h1 y los parrafos.
         
             */}
