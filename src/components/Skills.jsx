@@ -16,7 +16,7 @@ function Skills() {
                 <h1 className='font-bold text-3xl mb-1'>Skills Set</h1>
                 <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i know</h6>
             </div>
-            <section className='flex sm:flex-row gap-16 flex-wrap items-center justify-center max-w-2xl '>
+            <section className='flex sm:flex-row gap-5 sm:gap-16 flex-wrap items-center justify-center max-w-2xl '>
                 <SkillCard title='Html'>
                     <HtmlSVGR />
                 </SkillCard>
