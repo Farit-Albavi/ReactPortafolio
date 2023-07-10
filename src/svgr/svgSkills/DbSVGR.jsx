@@ -1,7 +1,7 @@
 import * as React from "react"
 const dbSVGR = (props) => (
     <svg
-        className="w-20 h-20 sm:w-40 sm:h-40 text-orange-800"
+        className="w-24 h-28 sm:w-28 sm:h-32 text-orange-800"
         xmlns="http://www.w3.org/2000/svg"
         width={120}
         height={150}
