@@ -13,8 +13,6 @@ function Services() {
                 <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i can do</h6>
             </div>
             <section className='flex gap-14 flex-wrap items-center justify-center'>
-
-
                 <ServiceCard
                     title={'Web Development'}
                     description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, consectetur distinctio molestiae veniam dolor iure exercitationem ex aperiam, ipsa porro inventore quia similique laboriosam id cumque corrupti? Modi, iusto.'}
@@ -35,10 +33,7 @@ function Services() {
                 >
                     <TerminalSVGR />
                 </ServiceCard>
-
             </section>
-
-
         </div>
     )
 }
