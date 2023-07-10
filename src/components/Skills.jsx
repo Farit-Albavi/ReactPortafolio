@@ -29,7 +29,7 @@ function Skills() {
                     <JsSVGR></JsSVGR>
                 </SkillCard>
 
-                <SkillCard title='Java'>
+                <SkillCard title='Java EE'>
                     <JavaSVG />
                 </SkillCard>
 
