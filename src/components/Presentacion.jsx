@@ -12,7 +12,7 @@ export default function Presentacion() {
                 debo quitar de los h1 y los parrafos.
         
             */}
-            <section className='w-full p-4 lg:p-0'>
+            <section className='w-full p-4 xl:p-0'>
 
                 <h1 className="font-bold text-2xl md:text-6xl sm:text-left">
                     Hello, I'm
@@ -39,7 +39,7 @@ export default function Presentacion() {
 
             </section>
 
-            <aside className='flex flex-col sm:items-end  p-4 lg:p-0 animate__bounceInRight animate__animated'>
+            <aside className='flex flex-col sm:items-end  p-4 xl:p-0 animate__bounceInRight animate__animated'>
                 <h1 className='font-bold text-2xl md:text-6xl text-end '>My name is ...</h1>
 
                 <div className='sm:max-w-xl lg:mt-8 mt-1'>
