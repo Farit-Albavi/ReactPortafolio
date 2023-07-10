@@ -1,6 +1,7 @@
 import * as React from "react"
 const JavaSVG = (props) => (
     <svg xmlns="http://www.w3.org/2000/svg"
+        className="w-20 h-20 sm:w-40 sm:h-40"
         x="0px"
         y="0px"
         width="150"
