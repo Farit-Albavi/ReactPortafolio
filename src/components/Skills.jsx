@@ -11,7 +11,7 @@ import DbSVGR from '../svgr/svgSkills/DbSVGR'
 
 function Skills() {
     return (
-        <div id='skills' className='container w-full h-full my-5 xl:my-10 flex flex-col justify-center items-center '>
+        <div id='skills' className='container w-full h-full my-10 xl:my-10 flex flex-col justify-center items-center '>
             <div className='text-center mb-10'>
                 <h1 className='font-bold text-3xl mb-1'>Skills Set</h1>
                 <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i know</h6>
@@ -29,7 +29,7 @@ function Skills() {
                     <JsSVGR></JsSVGR>
                 </SkillCard>
 
-                <SkillCard title='Java EE'>
+                <SkillCard title='Java'>
                     <JavaSVG />
                 </SkillCard>
 

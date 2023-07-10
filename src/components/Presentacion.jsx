@@ -3,7 +3,7 @@ import 'animate.css';
 
 export default function Presentacion() {
     return (
-        <div className='container flex flex-col items-center sm:block mt-14 xl:pt-44 animate__animated animate__bounceInLeft w-full h-screen'>
+        <div className='container flex flex-col items-center sm:block mt-14 sm:pt-44 animate__animated animate__bounceInLeft w-full h-screen'>
             {/* 
                 agregue clases para que en movile se centre el texto de la presentacion, en caso de que no me guste deberia quitar las siguientes clases:
                     text-center sm:text-left
@@ -12,7 +12,7 @@ export default function Presentacion() {
                 debo quitar de los h1 y los parrafos.
         
             */}
-            <section className='w-full p-4 sm:p-0'>
+            <section className='w-full p-4 lg:p-0'>
 
                 <h1 className="font-bold text-2xl md:text-6xl sm:text-left">
                     Hello, I'm
@@ -39,7 +39,7 @@ export default function Presentacion() {
 
             </section>
 
-            <aside className='flex flex-col sm:items-end  p-4 sm:p-0 animate__bounceInRight animate__animated'>
+            <aside className='flex flex-col sm:items-end  p-4 lg:p-0 animate__bounceInRight animate__animated'>
                 <h1 className='font-bold text-2xl md:text-6xl text-end '>My name is ...</h1>
 
                 <div className='sm:max-w-xl lg:mt-8 mt-1'>
