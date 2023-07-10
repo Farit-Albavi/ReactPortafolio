@@ -2,11 +2,11 @@ import React from 'react'
 
 function SkillCard({ title, children }) {
     return (
-        <div className='max-w-sm h-32 border hover:shadow-2xl
-            hover:shadow-gray-500 text-gray-700 hover:scale-110 
-            rounded-3xl w-36 '
+        <div className='max-w-sm flex
+             text-gray-700
+            '
         >
-            <div className="px-6 py-6 flex flex-col items-center">
+            <div className=" flex flex-col items-center justify-center w-40 h-40">
                 {children}
                 <div className="font-semibold text-xl mt-1 dark:text-white">
                     {title}
