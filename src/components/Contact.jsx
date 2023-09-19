@@ -8,7 +8,7 @@ function Contact() {
         <section id='contact' className='container mt-20 flex flex-col sm:flex-row'>
 
             <iframe src={src}
-                className='w-full h-96 sm:h-full sm:block'
+                className='w-full h-96 sm:h-full sm:block p-4 sm:p-0'
                 allowFullScreen="" loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade">
             </iframe>
