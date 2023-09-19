@@ -3,7 +3,6 @@ import ServiceCard from './ServiceCard'
 import DevSVGR from '../svgr/svgServices/DevSVGR'
 import TerminalSVGR from '../svgr/svgServices/TerminalSVGR'
 import LearnSVGR from '../svgr/svgServices/LearnSVGR'
-import Quote from './Quote'
 
 function Services() {
     return (

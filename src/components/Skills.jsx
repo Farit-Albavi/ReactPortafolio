@@ -7,6 +7,7 @@ import JsSVGR from '../svgr/svgSkills/JsSVGR'
 import ReactSVG from '../svgr/svgSkills/ReactSVG'
 import JavaSVG from '../svgr/svgSkills/JavaSVG'
 import DbSVGR from '../svgr/svgSkills/DbSVGR'
+import Linux from '../svgr/svgSkills/Linux'
 
 
 function Skills() {
@@ -39,6 +40,10 @@ function Skills() {
 
                 <SkillCard title='SQL'>
                     <DbSVGR />
+                </SkillCard>
+
+                <SkillCard title='Linux'>
+                    <Linux />
                 </SkillCard>
             </section>
         </div>
