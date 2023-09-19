@@ -12,7 +12,7 @@ function Portfolio() {
       </div>
 
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 xl:p-0">
 
         <PortfolioCard />
         <PortfolioCard />
