@@ -24,9 +24,9 @@ export default function Presentacion() {
 
                 <div className='sm:max-w-xl lg:mt-8 mt-1'>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vel quod rem labore porro, nulla placeat sapiente cupiditate
-                        ratione accusantium dolorem velit, ipsa pariatur,quam dolor recusandae ut. Est cupiditate incidunt aut vel, explicabo quas.
-                        Voluptate provident assumenda autem quod?
+                        Bienvenido a mi portafolio! Soy un apasionado de la tecnología con conocimientos en Linux, Java, SQL, JavaScript y
+                        React. Mi enfoque meticuloso en el desarrollo y mi determinación para superar desafíos hacen que esté listo para asumir proyectos desafiantes.
+                        Explora mi trabajo y cómo mi sólida base técnica puede ser un activo valioso para tu equipo.
                     </p>
                 </div>
 
@@ -44,8 +44,10 @@ export default function Presentacion() {
 
                 <div className='sm:max-w-xl lg:mt-8 mt-1'>
                     <p className="font-normal text-gray-700 dark:text-gray-400 text-end">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae provident cupiditate consectetur temporibus perferendis quam ipsa
-                        explicabo rem placeat aliquam id repudiandae fuga ex, earum amet odio natus! Maiores, fugit!
+                        Mi nombre es Farit Albavi, tengo 24 años, soy desarollador de software y estudiante del quinto semestre de la carrera de Licenciatura en ciencias informaticas 
+                        en la Universidad Nacional de Asunción. 
+        
+                        
                     </p>
                 </div>
 

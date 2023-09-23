@@ -13,8 +13,10 @@ function Services() {
             </div>
             <section className='flex gap-14 flex-wrap items-center justify-center'>
                 <ServiceCard
-                    title={'Web Development'}
-                    description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, consectetur distinctio molestiae veniam dolor iure exercitationem ex aperiam, ipsa porro inventore quia similique laboriosam id cumque corrupti? Modi, iusto.'}
+                    title={'Frontend'}
+                    description={
+                        'Maquetado de sitios web con HTML, CSS, JavaScript, React para añadir dinamismo de forma mas sencilla, Bootstrap y Tailwind para estilizar el sitio web de manera sencilla y productiva. Como resultado se tiene experiencias digitales atractivas y funcionales.'
+                    }
                 >
                     <DevSVGR />
                 </ServiceCard>
