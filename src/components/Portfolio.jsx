@@ -2,6 +2,7 @@
 import React from 'react'
 import PortfolioCard from './PortfolioCard'
 import portafolio from '../img/portafolio.png'
+import portafolio2 from '../img/portafolio2.png'
 import stockimage from '../img/943shots_so.png'
 
 
@@ -19,27 +20,27 @@ function Portfolio() {
       <div className="flex flex-col sm:flex-row p-4 xl:p-0 gap-8 xl:gap-16 justify-center flex-wrap">
 
         <PortfolioCard
-          title={'Control de stock.'}
-          descript={''}
+          title={'Control de stock'}
+          descript={'Proyecto personal para simular la interfaz y la lógica de negocio de un control de stock de productos.'}
           image={stockimage}
           link={'https://sprightly-khapse-de0885.netlify.app'}
-          techn={'html - css - javascript'}
+          techn={'html - css - bootstrap - javascript'}
           github={'https://github.com/Farit-Albavi/Inventario'}
         />
 
         <PortfolioCard
-          title={'Portafolio web'}
-          descript={''}
+          title={'Portafolio web'} 
+          descript={'Mi portafolio web, diseñado con react y estilizado con tailwind css'}
           image={portafolio}
           link={'https://farit-albavi.netlify.app'}
-          techn={'react - talwind - node'}
+          techn={'react - tailwind - node'}
           github={'https://github.com/Farit-Albavi/ReactPortafolio'}
         />
 
         <PortfolioCard
           title={'Portafolio web'}
           descript={''}
-          image={stockimage}
+          image={portafolio2}
           link={'https://sprightly-khapse-de0885.netlify.app'}
           techn={'react - talwind - node'}
         />
