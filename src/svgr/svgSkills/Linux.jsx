@@ -2,7 +2,7 @@ import React from 'react'
 
 function Linux() {
     return (
-        <svg className="w-16 h-16 sm:w-24 sm:h-24 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 18">
+        <svg className="w-16 h-16 sm:w-16 sm:h-16 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 18">
             <path stroke="currentColor"
              strokeLinecap="round" 
              strokeLinejoin="round" 

@@ -1,7 +1,7 @@
 import * as React from "react"
 const ReactSVG = (props) => (
     <svg
-        className="w-24 h-28  sm:w-28 sm:h-32 text-blue-500"
+        className="w-20 h-28  sm:w-20 sm:h-20 text-blue-500"
         width={120}
         height={150}
         fill="currentColor"

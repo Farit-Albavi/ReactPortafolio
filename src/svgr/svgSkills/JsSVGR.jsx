@@ -1,7 +1,7 @@
 import * as React from "react"
 const SvgComponent = (props) => (
     <svg xmlns="http://www.w3.org/2000/svg"
-        className="w-28 h-24 sm:w-40 sm:h-40"
+        className="w-24 h-24 sm:w-24 sm:h-24"
         x="0px"
         y="0px"
         width="150"

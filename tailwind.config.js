@@ -15,6 +15,12 @@ export default {
         // Agrega o modifica los colores personalizados según tus necesidades
       },
     },
+    transitionProperty: {
+      'height': 'height',
+      'width': 'width',
+      // Agrega otras propiedades de transición si las necesitas
+      'all': 'all', // Agrega 'all' para habilitar transiciones en todas las propiedades
+    },
   },
   plugins: [
     require('flowbite/plugin'),
