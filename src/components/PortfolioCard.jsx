@@ -1,10 +1,8 @@
-import img from '../img/943shots_so.png'
-
-function CardWithDecorativeImage({ title, descript, image, link, techn, github }) {
+function PortfolioCard({ title, descript, image, link, techn, github }) {
     return (
 
         <div className="max-w-sm h-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <img className="rounded-t-lg" src={img} alt="" />
+            <img className="rounded-t-lg" src={image} alt="" />
 
             <div className="p-5">
                 <a href="#">
@@ -38,6 +36,6 @@ function CardWithDecorativeImage({ title, descript, image, link, techn, github }
     )
 }
 
-export default CardWithDecorativeImage
+export default PortfolioCard
 
 

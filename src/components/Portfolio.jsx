@@ -1,6 +1,9 @@
 'use client';
 import React from 'react'
-import CardWithDecorativeImage from './cardFlow'
+import PortfolioCard from './PortfolioCard'
+import portafolio from '../img/portafolio.png'
+import stockimage from '../img/943shots_so.png'
+
 
 
 function Portfolio() {
@@ -13,30 +16,30 @@ function Portfolio() {
       </div>
 
 
-      <div className="flex flex-col sm:flex-row p-4 xl:p-0 gap-6 xl:gap-16 justify-center flex-wrap">
+      <div className="flex flex-col sm:flex-row p-4 xl:p-0 gap-8 xl:gap-16 justify-center flex-wrap">
 
-        <CardWithDecorativeImage
+        <PortfolioCard
           title={'Control de stock.'}
           descript={''}
-          image={'s'}
+          image={stockimage}
           link={'https://sprightly-khapse-de0885.netlify.app'}
           techn={'html - css - javascript'}
           github={'https://github.com/Farit-Albavi/Inventario'}
         />
 
-        <CardWithDecorativeImage
+        <PortfolioCard
           title={'Portafolio web'}
           descript={''}
-          image={'s'}
+          image={portafolio}
           link={'https://farit-albavi.netlify.app'}
           techn={'react - talwind - node'}
           github={'https://github.com/Farit-Albavi/ReactPortafolio'}
         />
 
-        <CardWithDecorativeImage
+        <PortfolioCard
           title={'Portafolio web'}
           descript={''}
-          image={'s'}
+          image={stockimage}
           link={'https://sprightly-khapse-de0885.netlify.app'}
           techn={'react - talwind - node'}
         />
