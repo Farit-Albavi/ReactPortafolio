@@ -7,7 +7,7 @@ function ServiceCard({ title, description, children }) {
     return (
 
         <div id='container' className='w-80 bg-white sm:h-96 text-black p-10 rounded flex flex-col gap-4 border
-        dark:lg:hover:bg-blue-950 dark:lg:hover:text-white lg:hover:border-none lg:hover:bg-red-400 lg:hover:text-white h-auto'>
+        dark:lg:hover:bg-blue-950 dark:lg:hover:text-white lg:hover:border-none lg:hover:bg-red-400 lg:hover:text-white h-auto transition ease-out duration-300 ' >
 
 
             <div className='flex justify-center items-center '>

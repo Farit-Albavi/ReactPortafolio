@@ -29,7 +29,7 @@ function Portfolio() {
         />
 
         <PortfolioCard
-          title={'Portafolio web'} 
+          title={'Portafolio web'}
           descript={'Mi portafolio web, diseñado con react y estilizado con tailwind css'}
           image={portafolio}
           link={'https://farit-albavi.netlify.app'}
