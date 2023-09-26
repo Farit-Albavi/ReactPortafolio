@@ -8,6 +8,7 @@ import ReactSVG from '../svgr/svgSkills/ReactSVG'
 import JavaSVG from '../svgr/svgSkills/JavaSVG'
 import DbSVGR from '../svgr/svgSkills/DbSVGR'
 import Linux from '../svgr/svgSkills/Linux'
+import Tailwind from '../svgr/svgSkills/Tailwind'
 
 
 function Skills() {
@@ -46,8 +47,8 @@ function Skills() {
                     <Linux />
                 </SkillCard>
                 
-                <SkillCard title='Linux'>
-                    <Linux />
+                <SkillCard title='Tailwind'>
+                    <Tailwind />
                 </SkillCard>
             </section>
         </div>
