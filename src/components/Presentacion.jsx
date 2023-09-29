@@ -19,7 +19,7 @@ export default function Presentacion() {
 
 
                 <div className='sm:max-w-xl lg:mt-8 mt-1'>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left">
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left text-md">
                         Bienvenido a mi portafolio! Soy un apasionado de la tecnología con conocimientos en Linux, Java, SQL, JavaScript y
                         React. Mi enfoque meticuloso en el desarrollo y mi determinación para superar desafíos hacen que esté listo para asumir proyectos desafiantes.
                         Explora mi trabajo y cómo mi sólida base técnica puede ser un activo valioso para tu equipo.
