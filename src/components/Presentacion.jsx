@@ -6,7 +6,7 @@ export default function Presentacion() {
     return (
         // flex flex-col  sm:block items-center
 
-        <div className='container flex flex-col-reverse lg:grid lg:grid-cols-2 xl:pt-44  animate__animated animate__bounceInLeft w-full lg:h-screen '>
+        <div className='container flex flex-col-reverse lg:grid lg:grid-cols-2 lg:pt-28 xl:pt-44  animate__animated animate__bounceInLeft w-full lg:h-screen '>
             <section className='w-full p-4 xl:p-0'>
 
                 <h1 className="font-bold text-2xl md:text-6xl sm:text-left">
