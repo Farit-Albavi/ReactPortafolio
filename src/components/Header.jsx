@@ -11,7 +11,7 @@ function Header() {
     return (
         <nav className="p-4 container flex flex-col sm:flex-row-reverse xl:relative xl:top-0 xl:z-10 ">
 
-            <div className="container mx-auto flex items-center justify-between gap-3">
+            <div className="container mx-auto flex items-center justify-between">
 
                 <button
                     className="block sm:hidden border-gray-400 rounded px-2 py-1 border "
@@ -22,7 +22,7 @@ function Header() {
                     <Switcher />
                 </aside>
                 <aside>
-                    <button className=" dark:bg-gray-300 bg-red-100 hover:bg-red-200 dark:hover:bg-blue-50 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center rounded-xl">
+                    <button className=" dark:bg-gray-300 bg-red-100 hover:bg-red-200 dark:hover:bg-blue-50 text-gray-800 font-bold py-2 px-4 inline-flex items-center rounded-xl">
                         <span>Resume</span>
                     </button>
                 </aside>
