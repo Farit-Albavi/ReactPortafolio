@@ -6,8 +6,8 @@ function ServiceCard({ title, description, children }) {
 
     return (
 
-        <div id='container' className='w-80 md:w-[450px] m-auto bg-gray-100 sm:h-[500px] text-black p-10 rounded-xl flex flex-col gap-4 border
-        dark:lg:hover:bg-blue-950 dark:lg:hover:text-white lg:hover:border-none lg:hover:bg-[#e8f0f2] lg:hover:text-black h-auto transition ease-out duration-300 ' >
+        <div id='container' className='w-80 md:w-[450px] m-auto bg-gray-100 sm:h-[500px] text-black p-10 rounded-xl flex flex-col gap-4 
+        dark:lg:hover:bg-blue-950 dark:lg:hover:text-white lg:hover:border-none lg:hover:bg-[#e8f0f2] lg:hover:text-black  transition ease-out duration-300 ' >
 
 
             <div className='flex justify-center items-center '>
@@ -16,7 +16,7 @@ function ServiceCard({ title, description, children }) {
                 </div>
             </div>
             <h1 className='font-bold text-2xl text-center'>{title}</h1>
-            <p className='w-full h-36 text-center'>{description}</p>
+            <p className='w-full sm:h-36 text-center'>{description}</p>
 
             <div className='text-center'>
                 <p>Tecnologías</p>
