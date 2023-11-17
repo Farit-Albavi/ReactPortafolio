@@ -1,12 +1,4 @@
 import React, { useContext, useEffect } from "react";
-import lGithub from '../img/icons8-github.svg'
-import dGithub from '../img/githubBlackTheme.svg'
-import linkedin from '../img/icons8-linkedin.svg'
-import linkedinL from '../img/icons8-linkedinLight.svg'
-import facebook from '../img/icons8-facebook.svg'
-import facebookL from '../img/icons8-facebookLight.svg'
-import instagram from '../img/icons8-instagram.svg'
-import instagramL from '../img/icons8-instagramLight.svg'
 import ThemeContext from '../context/ThemeContext'
 import Socialmedia from '../components/Socialmedia'
 

@@ -17,7 +17,7 @@ function Socialmedia() {
     }, [theme])
 
     return (
-        <ul className="flex items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 mb-2">
+        <ul className="flex items-center justify-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 gap-4 pb-2">
             <li>
                 {theme === false ?
                     <a href="https://github.com/Farit-Albavi" target="_blank">
