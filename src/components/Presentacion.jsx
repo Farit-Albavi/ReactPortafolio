@@ -11,7 +11,7 @@ export default function Presentacion() {
             <div className='container min-h-screen flex flex-col items-center justify-center'>
 
                 <section >
-                    <img className='border-2 rounded-full border-black bg-black dark:bg-slate-100 dark:border-slate-100 w-64 h-64 md:w-80 md:h-80 m-auto ' src={faritlogo} alt="Farit Albavi Photo" />
+                    <img className='border-2 rounded-full border-black bg-black dark:bg-slate-500 dark:border-slate-500 w-64 h-64 md:w-80 md:h-80 m-auto ' src={faritlogo} alt="Farit Albavi Photo" />
                     <div className='sm:max-w-xl m-auto text-center'>
                         <h1 className="text-3xl md:my-5 my-3 md:text-5xl sm:text-center text-white poppins">
                             Farit Albavi
