@@ -22,7 +22,7 @@ function Header() {
                     <Switcher />
                 </aside>
                 <aside>
-                    <button className=" dark:bg-gray-300 bg-red-100 hover:bg-red-200 dark:hover:bg-blue-50 text-gray-800 font-bold py-2 px-4 inline-flex items-center rounded-xl">
+                    <button className=" dark:bg-gray-300 bg-[#e8f0f2] hover:bg-red-200 dark:hover:bg-blue-50 text-gray-800 font-bold py-2 px-4 inline-flex items-center rounded-xl">
                         <span>Resume</span>
                     </button>
                 </aside>

@@ -16,7 +16,7 @@ function PortfolioCard({ title, descript, image, link, techn, github }) {
 
                 <aside className='flex gap-4'>
 
-                    <a href={link} target='_blank' className="inline-flex items-center px-3 py-2 gap-1 text-sm font-medium text-center  rounded-lg focus:ring-4 dark:hover:bg-blue-50 text-gray-800 focus:outline-none focus:ring-blue-300 dark:bg-gray-300 bg-red-100 hover:bg-red-200 dark:focus:ring-blue-800">
+                    <a href={link} target='_blank' className="inline-flex items-center px-3 py-2 gap-1 text-sm font-medium text-center  rounded-lg focus:ring-4 dark:hover:bg-blue-50 text-gray-800 focus:outline-none focus:ring-blue-300 dark:bg-gray-300 bg-[#e8f0f2] hover:bg-red-200 dark:focus:ring-blue-800">
                         <p>Demo</p>
                         <svg class="w-3 h-3 text-white-800 dark:gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />

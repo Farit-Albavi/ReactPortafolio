@@ -17,7 +17,7 @@ function Contact() {
 
                 <div className='mb-5 m-auto'>
                     <h1 className='text-center font-bold'>Contact Me</h1>
-                    <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>have something to say?</h6>
+                    <h6 className='bg-[#e8f0f2] dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>have something to say?</h6>
                 </div>
 
                 {/* Nombre */}

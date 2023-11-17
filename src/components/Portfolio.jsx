@@ -13,7 +13,7 @@ function Portfolio() {
 
       <div className='text-center mb-10'>
         <h1 className='font-bold text-3xl mb-1'>Portfolio</h1>
-        <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>My projects</h6>
+        <h6 className='bg-[#e8f0f2] dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>My projects</h6>
       </div>
 
 

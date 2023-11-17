@@ -16,7 +16,7 @@ function Skills() {
         <div id='skills' className='container w-full h-full my-10 xl:my-10 flex flex-col justify-center items-center '>
             <div className='text-center mb-10'>
                 <h1 className='font-bold text-3xl mb-1'>Skills Set</h1>
-                <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i know</h6>
+                <h6 className='bg-[#e8f0f2] dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i know</h6>
             </div>
             <section className='flex sm:flex-row gap-5 sm:gap-10 flex-wrap items-center justify-center max-w-3xl'>
                 <SkillCard title='Html'>
@@ -46,7 +46,7 @@ function Skills() {
                 <SkillCard title='Linux'>
                     <Linux />
                 </SkillCard>
-                
+
                 <SkillCard title='Tailwind'>
                     <Tailwind />
                 </SkillCard>

@@ -9,7 +9,7 @@ function Services() {
         <div className='animate__bounceIn container w-full'>
             <div className='text-center mb-10'>
                 <h1 className='font-bold text-3xl mb-1'>Services</h1>
-                <h6 className='bg-red-100 dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i can do</h6>
+                <h6 className='bg-[#e8f0f2] dark:bg-slate-100 inline px-4 rounded-xl dark:text-gray-700'>What i can do</h6>
             </div>
             <section className='flex gap-14 flex-wrap items-center justify-center'>
                 <ServiceCard
