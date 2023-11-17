@@ -9,9 +9,10 @@ function Header() {
     };
 
     return (
-        <nav className="py-4 container flex flex-col sm:flex-row-reverse xl:relative xl:top-0 xl:z-10 ">
+        <nav className="py-4  container flex flex-col sm:flex-row-reverse">
 
-            <div className="container mx-auto flex items-center justify-between">
+            <div className="container mx-auto flex items-center justify-between gap-3">
+
                 <button
                     className="block sm:hidden border-gray-400 rounded px-2 py-1 ml-5 border "
                     onClick={toggleNavbar}>
@@ -19,6 +20,11 @@ function Header() {
                 </button>
                 <aside className='flex justify-end w-full'>
                     <Switcher />
+                </aside>
+                <aside>
+                    <button className=" dark:bg-gray-300 bg-red-100 hover:bg-red-200 dark:hover:bg-blue-50 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center rounded-xl">
+                        <span>Resume</span>
+                    </button>
                 </aside>
             </div>
 
@@ -38,11 +44,9 @@ function Header() {
                         <a href="#skills" className="block ">Skills</a>
                     </li>
                     <li className="mb-2 sm:mb-0 sm:mr-4 hover:underline hover:underline-offset-8">
-                        <a href="#contact"  className="block ">Contact</a>
+                        <a href="#contact" className="block ">Contact</a>
                     </li>
-                    <li className="mb-2 sm:mb-0 hover:underline hover:underline-offset-8">
-                        <a href="/blog" className="block ">Blog</a>
-                    </li>
+
                 </ul>
             </div>
 

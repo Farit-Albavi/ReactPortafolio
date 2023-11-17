@@ -16,7 +16,7 @@ function ServiceCard({ title, description, children }) {
                 </div>
             </div>
             <h1 className='font-bold text-2xl text-center'>{title}</h1>
-            <p>{description}</p>
+            <p >{description}</p>
 
             <style>{`
                 @media (min-width: 1024px) {

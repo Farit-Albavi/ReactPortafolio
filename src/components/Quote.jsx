@@ -8,7 +8,7 @@ function Quote() {
             </svg>
             <blockquote>
                 <p className="text-2xl italic font-medium text-gray-900 dark:text-white">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint a, cum magni suscipit ratione delectus at numquam eligendi libero quia facere quae ipsum facilis explicabo.
+                    En el vasto universo de la informática, cada línea de código es una oportunidad para crear, innovar y transformar el futuro digital.
                 </p>
             </blockquote>
             <figcaption className="flex items-center justify-center mt-6 space-x-3">

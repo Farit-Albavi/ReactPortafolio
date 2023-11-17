@@ -14,11 +14,6 @@ function App() {
 
   return (
     <>
-      <header className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
-        <Header></Header>
-      </header>
-
-      {/* quitar el h-screen */}
       <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Presentacion></Presentacion>
       </section>

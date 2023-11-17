@@ -15,22 +15,21 @@ function Services() {
                 <ServiceCard
                     title={'Frontend'}
                     description={
-                        'Maquetado de sitios web con HTML, CSS, JavaScript, React para añadir dinamismo de forma mas sencilla, Bootstrap y Tailwind para estilizar el sitio web de manera sencilla y productiva. Como resultado se tiene experiencias digitales atractivas y funcionales.'
-                    }
+                        'Maquetado de sitios web con HTML, CSS, JavaScript, React para añadir dinamismo de forma mas sencilla, Bootstrap y Tailwind para estilizar el sitio web de manera sencilla y productiva. Como resultado se tiene experiencias digitales atractivas y funcionales.'}
                 >
                     <DevSVGR />
                 </ServiceCard>
 
                 <ServiceCard
-                    title={'Constant learning'}
-                    description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, consectetur distinctio molestiae veniam dolor iure exercitationem ex aperiam, ipsa porro inventore quia similique laboriosam id cumque corrupti? Modi, iusto.'}
+                    title={'Databases'}
+                    description={'Bases de datos modelo relacional con enfoque en PostgreSQL. Aprendizaje del diseño de estructuras y relaciones para una gestión de datos efectiva. Almacenamiento y recuperación de datos sencillos y eficientes.'}
                 >
                     <LearnSVGR />
                 </ServiceCard>
 
                 <ServiceCard
                     title={'Backend'}
-                    description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae, consectetur distinctio molestiae veniam dolor iure exercitationem ex aperiam, ipsa porro inventore quia similique laboriosam id cumque corrupti? Modi, iusto.'}
+                    description={'Desarrollo backend robusto y eficiente para sitios web. Creación de API RESTful para gestionar datos de manera efectiva. Implementación de tecnologías modernas para garantizar un rendimiento óptimo. '}
                 >
                     <TerminalSVGR />
                 </ServiceCard>
