@@ -9,12 +9,12 @@ function Header() {
     };
 
     return (
-        <nav className="py-4  container flex flex-col sm:flex-row-reverse">
+        <nav className="p-4 container flex flex-col sm:flex-row-reverse xl:relative xl:top-0 xl:z-10 ">
 
             <div className="container mx-auto flex items-center justify-between gap-3">
 
                 <button
-                    className="block sm:hidden border-gray-400 rounded px-2 py-1 ml-5 border "
+                    className="block sm:hidden border-gray-400 rounded px-2 py-1 border "
                     onClick={toggleNavbar}>
                     {isOpen ? 'Close' : 'Menu'}
                 </button>

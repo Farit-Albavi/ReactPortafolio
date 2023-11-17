@@ -1,4 +1,3 @@
-import Header from './components/Header'
 import Presentacion from './components/Presentacion'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
@@ -6,15 +5,19 @@ import Contact from './components/Contact'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
 import Quote from './components/Quote'
-
+import Header from './components/Header'
 
 function App() {
 
-  const design = 'flex justify-center dark:bg-transparent bg-gray-300 text-gray-700 dark:text-white'
 
   return (
     <>
-      <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
+
+      <header className='w-full flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
+        <Header></Header>
+      </header>
+
+      <section className='flex justify-center w-full dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Presentacion></Presentacion>
       </section>
 

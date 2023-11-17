@@ -7,41 +7,30 @@ import Header from '../components/Header'
 export default function Presentacion() {
     return (
 
-        <div className='container min-h-screen'>
+        <div className='w-full flex flex-col items-center mx-5'>
+            <div className='container min-h-screen flex flex-col items-center justify-center'>
 
-            <header className='w-full flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
-                <Header></Header>
-            </header>
+                <aside className='w-full'>
+                    <img className='border-4 rounded-full border-black bg-black dark:bg-black dark:border-white w-64 h-64 md:w-80 md:h-80 m-auto ' src={faritlogo} alt="" />
+                    <div className='sm:max-w-xl m-auto text-center'>
+                        <h1 className="text-3xl md:my-5 my-3 md:text-5xl sm:text-center">
+                            Farit Albavi
+                        </h1>
+                        <h2>Full Stack Developer</h2>
 
+                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-md text-center m-5">
+                            Desarrollador con una sólida trayectoria de entrega de aplicaciones web de alta calidad, escalables y confiables, utilizando una amplia variedad de tecnologías.                        </p>
+                        <section className='flex sm:flex justify-center mt-8 items-center'>
+                            <aside className='flex gap-3'>
+                                <Socialmedia />
+                            </aside>
+                        </section>
+                    </div>
 
-
-            <aside className='w-full border '>
-
-                <img className='border-4 rounded-full border-black bg-black dark:bg-black dark:border-white w-64 h-64 md:w-80 md:h-80 m-auto ' src={faritlogo} alt="" />
-
-
-                <div className='sm:max-w-xl lg:mt-8 mt-1 m-auto'>
-
-
-                    <h1 className="font-bold md:my-5 text-2xl md:text-6xl sm:text-center">
-                        Farit Albavi
-                    </h1>
-
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-left text-md">
-                        Bienvenido a mi portafolio! Soy un apasionado de la tecnología con conocimientos en Linux, Java, SQL, JavaScript y
-                        React. Mi enfoque meticuloso en el desarrollo y mi determinación para superar desafíos hacen que esté listo para asumir proyectos desafiantes.
-                        Explora mi trabajo y cómo mi sólida base técnica puede ser un activo valioso para tu equipo.
-                    </p>
-                    <section className='flex  sm:flex justify-between mt-8 items-center'>
-                        <aside className='flex gap-3'>
-                            <Socialmedia />
-                        </aside>
-                    </section>
-                </div>
-
-            </aside>
+                </aside>
 
 
+            </div>
         </div>
     )
 }
