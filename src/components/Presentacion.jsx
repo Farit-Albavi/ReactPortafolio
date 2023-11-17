@@ -20,7 +20,7 @@ export default function Presentacion() {
 
                         <p className="font-normal text-gray-700 dark:text-gray-400 text-md text-center m-5">
                             Desarrollador con una sólida trayectoria de entrega de aplicaciones web de alta calidad, escalables y confiables, utilizando una amplia variedad de tecnologías.                        </p>
-                        <section className='flex sm:flex justify-center mt-8 items-center'>
+                        <section className='flex sm:flex justify-center items-center'>
                             <aside className='flex gap-3'>
                                 <Socialmedia />
                             </aside>
