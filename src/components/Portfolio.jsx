@@ -17,7 +17,7 @@ function Portfolio() {
       </div>
 
 
-      <div className="flex flex-col sm:flex-row p-4 xl:p-0 gap-8 xl:gap-16 justify-center flex-wrap">
+      <div className="flex flex-col sm:flex-row p-4 xl:p-0 gap-8 xl:gap-16 justify-between flex-wrap ">
 
         <PortfolioCard
           title={'Control de stock'}

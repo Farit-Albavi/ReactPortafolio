@@ -1,7 +1,7 @@
 function PortfolioCard({ title, descript, image, link, techn, github }) {
     return (
 
-        <div className="max-w-sm bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between ">
+        <div className="w-[450px] m-auto bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between">
             <img className="rounded-t-lg" src={image} alt="" />
 
             <div className="p-5">
