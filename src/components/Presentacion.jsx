@@ -16,7 +16,7 @@ export default function Presentacion() {
                         <h1 className="text-3xl md:my-5 my-3 md:text-5xl sm:text-center dark:text-white poppins text-gray-700">
                             Farit Albavi
                         </h1>
-                        <h2 className=''>Full Stack Developer</h2>
+                        <h2 className=''>Web Developer</h2>
 
                         <p className="font-normal text-gray-700 dark:text-gray-400 text-md text-center m-5">
                             Desarrollador con una sólida trayectoria de entrega de aplicaciones web de alta calidad, escalables y confiables, utilizando una amplia variedad de tecnologías.                        </p>
