@@ -20,7 +20,7 @@ function ServiceCard({ title, description, children }) {
 
             <div className='text-center'>
                 <p>Tecnologías</p>
-                <ul className='flex w-[200px] m-auto gap-3 flex-wrap'>
+                <ul className='flex w-[200px] m-auto gap-3 flex-wrap pt-2'>
                     <li className='bg-red-200 px-2 rounded-md'>React</li>
                     <li className='bg-yellow-300  px-2 rounded-md'>React</li>
                     <li className='bg-blue-500  px-2 rounded-md'>React</li>
