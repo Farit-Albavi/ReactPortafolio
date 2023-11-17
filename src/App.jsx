@@ -37,10 +37,6 @@ function App() {
         <Portfolio />
       </section>
 
-      <section className='flex justify-center dark:bg-transparent bg-white text-gray-700 dark:text-white'>
-        <Contact />
-      </section>
-
 
       <footer className='dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Footer />
