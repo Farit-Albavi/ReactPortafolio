@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Switcher from './Switcher'
+import cv from '../assets/CV_FaritAlbavi.pdf'
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +23,9 @@ function Header() {
                     <Switcher />
                 </aside>
                 <aside>
-                    <button className=" dark:bg-gray-300 bg-[#e8f0f2] hover:bg-gray-500/20 dark:hover:bg-blue-50 text-gray-800 font-bold p-1 inline-flex items-center rounded-xl">
+                    <a href={cv} download={'Resume Farit-Albavi'} className=" dark:bg-gray-300 bg-[#e8f0f2] hover:bg-gray-500/20 dark:hover:bg-blue-50 text-gray-800 font-bold p-1 inline-flex items-center rounded-xl">
                         <span>Resume</span>
-                    </button>
+                    </a>
                 </aside>
             </div>
 
