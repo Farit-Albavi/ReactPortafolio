@@ -22,7 +22,7 @@ function Services() {
 
                 <ServiceCard
                     title={'Databases'}
-                    description={'Bases de datos modelo relacional con enfoque en PostgreSQL. Aprendizaje del diseño de estructuras y relaciones para una gestión de datos efectiva. Almacenamiento y recuperación de datos sencillos y eficientes.'}
+                    description={'Conocomiento en Bases de datos modelo relacional con enfoque en PostgreSQL. Aprendizaje del diseño de estructuras y relaciones para una gestión de datos efectiva. Almacenamiento y recuperación de datos sencillos y eficientes.'}
                 >
                     <LearnSVGR />
                 </ServiceCard>

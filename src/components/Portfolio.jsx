@@ -38,11 +38,11 @@ function Portfolio() {
         />
 
         <PortfolioCard
-          title={'Portafolio web'}
+          title={'Landing Page'}
           descript={''}
           image={portafolio2}
           link={'https://sprightly-khapse-de0885.netlify.app'}
-          techn={'react - talwind - node'}
+          techn={'react - talwind - springboot'}
         />
 
       </div>
