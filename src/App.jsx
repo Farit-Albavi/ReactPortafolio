@@ -41,7 +41,6 @@ function App() {
         <Contact />
       </section>
 
-
       <footer className='dark:bg-transparent bg-white text-gray-700 dark:text-white'>
         <Footer />
       </footer>

@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 
-body {
+html {
   background-color: #181823;
 }
 
