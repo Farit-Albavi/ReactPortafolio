@@ -8,7 +8,7 @@ export default function Presentacion() {
     return (
 
         <div className='w-full flex flex-col items-center mx-5 '>
-            <div className='container min-h-screen flex flex-col md:items-center md:justify-center pt-32 sm:pt-0'>
+            <div className='container min-h-screen flex flex-col md:items-center md:justify-center pt-20 sm:pt-0'>
 
                 <section >
                     <img className='border-2 rounded-full border-black bg-black dark:bg-slate-500 dark:border-slate-500 w-64 h-64 md:w-80 md:h-80 m-auto ' src={faritlogo} alt="Farit Albavi Photo" />
